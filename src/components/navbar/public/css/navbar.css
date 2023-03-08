@@ -1,0 +1,10 @@
+.navbar a {
+    margin-right: 10px;
+    color: #e03737;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #666;
+}
+

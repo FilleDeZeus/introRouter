@@ -1,0 +1,13 @@
+.error{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.error h1{
+    font-size: 6rem;
+    margin-bottom: 10px;
+}
+
+.error p{
+    font-size: 2rem;
+}
