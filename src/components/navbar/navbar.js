@@ -7,10 +7,6 @@ export const Navbar = () => {
             <NavLink to="/">Accueil</NavLink>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/liste">Liste</NavLink>
-            {/* <NavLink to="/liste">Liste</NavLink> */}
-            {/* <NavLink to="/connection">Connection</NavLink> */}
-            {/* <NavLink to="*">Error</NavLink> */}
-
         </div>
     )
 }

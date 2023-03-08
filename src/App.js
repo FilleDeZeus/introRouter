@@ -4,9 +4,6 @@ import { useRoutes } from 'react-router-dom';
 //Component :
 import {Navbar} from './components/navbar/navbar.js'
 import {Error} from './components/error/error.js'
-import { Connection } from './components/connection/connection';
-import { MyAccount } from './components/myAccount/myAccount';
-// import {EditAccount} from './components/editAccount/editAccount.js'
 
 //Pages :
 import {Acceuil} from './components/pages/acceuil/acceuil.js'
@@ -38,20 +35,7 @@ export const App = () => {
     {
         path : "*",
         element : <Error />
-    },
-    {
-      path : "/connection",
-      element : <Connection />
-    },
-    {
-      path : "/myAccount",
-      element : <MyAccount />
     }
-    // {
-    //   path: '/edit-account',
-    //   element: <EditAccount />,
-    // }
-    
 ])
 
   return(
